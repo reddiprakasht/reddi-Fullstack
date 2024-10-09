@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font-symbol-link -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google-font-link -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        body {
+            background-color: rgb(28, 43, 28);
+        }
+
+        #container {
+            margin: auto;
+            width: 1000px;
+            height: 600px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: first baseline;
+            text-align: center;
+
+        }
+
+        .h1 {
+            text-align: center;
+            color: white;
+            font-family: "roboto"
+
+        }
+
+        .a{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            height: 200px;
+            margin: 10px;
+            background-color: rgb(56, 55, 55);
+            padding: 15px;
+            border-radius: 10px;
+            font-family: "roboto"
+        }
+
+        .h2 {
+            color: orange;
+        }
+
+        .a:hover{
+            background-color: orangered;
+            color: white;
+        }
+        
+        
+        .h2:hover {
+            color: white;
+        }
+        .a:hover .h2{
+            background-color: orangered;
+            color: white;
+        }
+
+
+        @media screen and (max-width:999px) {
+
+            #container {
+                width: 100%;
+                height: auto;
+            }
+
+            .a {
+                display: flex;
+                flex-direction: column;
+            }
+            
+
+        }
+
+        @media screen and (max-width:500px) {
+
+            #container {
+                width: 100%;
+                height: auto;
+            }
+
+            .a {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">OUR SERVICES</h1>
+
+    <div id="container">
+        <div class="a">
+            <i class="fa-solid fa-cube" style="font-size: 30px;"></i>
+            <h2 class="h2">Web Development</h2> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+        <div class="a">
+            <i class="fa-solid fa-mobile-screen-button" style="font-size: 30px;"></i>
+            <h2 class="h2">App Development</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+        <div class="a">
+            <i class="fa-solid fa-paintbrush" style="font-size: 30px;"></i>
+            <h2 class="h2">Web Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+
+        <div class="a">
+            <i class="fa-solid fa-laptop" style="font-size: 30px;"></i>
+            <h2 class="h2">Responsive Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+        <div class="a">
+            <i class="fa-solid fa-chart-line" style="font-size: 30px;"></i>
+            <h2 class="h2">Advertising</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+        <div class="a">
+            <i class="fa-brands fa-wordpress" style="font-size: 30px;"></i>
+            <h2 class="h2">Wordpress</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, enim omnis. Libero perferendis in
+                ullam.</p>
+        </div>
+    </div>
+</body>
+</html>

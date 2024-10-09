@@ -1,0 +1,252 @@
+HTML
+Hyper Text Markup Language
+=======================================================================
+Tags are important in HTML
+There are 2 types of tags
+
+1. opening tags
+ex : <title>
+2. closing tags
+ex : </title>
+
+Html file will be closing as .html
+
+we need some platform to use HTML amd also a web
+
+platform like VS code, Edit Plus, notepad+
+and browser like chrome and safari 
+
+some tags:
+------------------------
+
+<br> >>>break
+<hr> >>>> horizontal row
+
+
+html web structure
+
+<html>
+</html>
+
+
+
+Attributes :
+---------------------------
+An HTML attribute is a piece of markup language used to adjust the behaviour display of any HTML element.
+For example, attribute can be used to change the color, size, or functionality of the HTML element.
+ 
+
+attributes will be given in opening tag
+ex : <body attribute> </body>
+
+bgcolor attribute ==> bgcolor ="yellow"
+
+
+color attribute :
+----------------------------------
+<html>
+<head>
+<title> attribute ex</title>
+</head>
+<body bgcolor="#1FB0F3">
+
+<hr color="red" size=""30px" width="400" align="left"
+</body>
+
+
+</html>
+
+Headings in html :
+========================================================================
+There are 6 types of tags
+
+<h1>   </h1>
+<h2>   </h2>
+..
+..
+..
+<h6>   </h6>
+
+attribute for headings
+align="left/center/right"
+
+parageraph :
+======================================================================
+<p>  </p>
+
+we use for writing paragraph in this
+
+
+<htm>
+    <head>
+
+        <title>Headings</title>
+    </head>
+
+    <body>
+        <h1 align="center">headings</h1>
+        <h2>headings</h2>
+        <h3>headings</h3>
+        <h4>headings</h4>
+        <h5>headings</h5>
+        <h6>headings</h6>
+
+        <p align="center">
+            Lorem200=
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptates rem aspernatur illum ea aut quasi accusamus officiis ex cumque iusto adipisci in, debitis facilis corporis libero corrupti hic veritatis nisi odio explicabo suscipit sapiente numquam. Voluptas voluptatibus id, esse ut corporis hic aut harum adipisci aliquam repellat dignissimos error assumenda provident sequi itaque mollitia maxime! Doloribus ut, nostrum voluptate quasi libero excepturi quos! Nemo fugit reprehenderit excepturi explicabo accusantium accusamus tenetur quo perspiciatis porro, laborum cumque architecto iusto repudiandae? Deserunt ipsum nihil, minima eveniet amet dicta! Rerum excepturi non iste, repellat harum, doloremque minus dolorum cumque esse quam rem placeat, earum quis facere? Sapiente mollitia sit voluptate rerum laudantium qui necessitatibus repudiandae voluptates eaque distinctio animi assumenda soluta excepturi, amet officia quasi sint cupiditate at atque. Hic adipisci nam sed, atque dolores assumenda perspiciatis quaerat numquam fugiat ratione vitae optio maiores recusandae, inventore aliquid ab dolorem. Blanditiis enim repudiandae obcaecati amet itaque magnam. Nobis accusantium ea quod commodi. Obcaecati, eveniet porro omnis enim ipsa, voluptas iusto modi blanditiis culpa nostrum at alias eaque tempora, possimus explicabo perspiciatis architecto natus laboriosam tenetur! Nulla nam nesciunt, nemo rem ab placeat nostrum ipsa inventore saepe, neque nobis laudantium, qui quisquam dolorem laborum?
+        </p>
+    </body>
+</htm>
+
+=====================================================================================================================
+
+22nd may :
+
+=======================================================================================================================
+
+List items
+-----------------------------
+3 types
+1)order list item
+	<ol> </ol>
+
+2) Unordered list item
+	<ul> </ul>
+3) Description lists
+	<dl> </dl>     ----the <dl> tag defines the description list
+	<dt> </dt>     ----the <dt> tag defines the term (name), and
+	<dd> </dd>     ----the <dd> tag defines each term
+
+
+
+
+  <body>
+        <h1>Example of list items</h1>
+        <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="A">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="a">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="I">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+-------------------------------------------------
+        <ul>
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+
+        <ul style type="circle">
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+
+        <ul style type="square">
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+        
+    </body>	
+
+
+OL style type can be A, a, I,
+UL style type can be circle, square. ====for HTML-------if we want different style it can be done with CSS.
+
+----------------------------------------------------------------------------------------------------------------
+
+3) Description lists
+	<dl> </dl> 
+	<dt> </dt>    
+	<dd> </dd> 
+
+
+
+Inserting images :
+===========================================================================================================
+<img> tag  			-----we download the image in the same folder that will help
+<img src="SAVE-WILDLIFE.png">
+
+<body>
+        <h1>images example</h1>
+        <img src="SAVE-WILDLIFE.png" alt="wild life animals" width="950px" border="05px">
+
+    </body>
+
+
+some attributes:
+-------------------------------------
+src
+width
+height
+border
+title
+alt
+
+
+Hyper links :
+===============================================================================
+<a href="htmlpage">link description (or) text</a>
+
+a = ancher
+href = hyper reference
+
+
+Tables :
+===================================================================================
+
+<table> </table>
+<tr> </tr>         ----table row
+<td> </td>         -----table data
+<th> </th>	   ------table head
+
+
+<body>
+
+<table bgcolor="orange" align="center" border="5px" width="600px">
+    <tr>
+        <td>SNO</td>
+        <td>name</td>
+        <td>Email</td>
+        <td>phone</td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>kiran</td>
+        <td>kiran1@gmail.com</td>
+        <td>4534453452</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>ajay</td>
+        <td>ajay2@gmail.com</td>
+        <td>5374573753</td>
+    </tr>
+</table>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 1000px;
+            height: 500px;
+            border: 2px solid black;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            
+
+        }
+        .box-inside{
+            width: 100px;
+            height: 100%;
+            //border: 2px solid black;
+            background-color: brown;
+            position: absolute;
+            right: -110px;
+            transition: all 2s;
+
+          
+        }
+
+        .box1:hover .box-inside{
+            right: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+   
+        <div class="box1">
+            <div class="box-inside">
+
+            </div>
+        </div>
+</body>
+</html>
